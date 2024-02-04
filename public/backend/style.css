@@ -1,0 +1,257 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+ font-family: 'Segoe UI', Tahoma, sans-serif!important;
+
+}
+ .nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    color: #333; /* Set your desired text color */
+}
+
+.nav-link {
+    /* display: flex; */
+    align-items: center;
+    text-decoration: none;
+    //padding: 10px;
+    color: #000000; /* Set your desired text color */
+}
+
+.nav-link svg {
+    margin-right: 10px; /* Adjust the spacing between the icon and text */
+    width: 24px; /* Set the width of the SVG icon */
+    height: 24px; /* Set the height of the SVG icon */
+    fill: #000000; /* Set the fill color of the SVG icon */
+}
+
+.nav-link:hover {
+    border-radius: 5px; /* Add border-radius for a rounded look on hover */
+}
+
+.history-name h6{
+ font-family: Roboto, 'Segoe UI', Tahoma, sans-serif!important;
+
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background: #fff; 
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: lightgray; 
+  border-radius: 6px;
+  
+
+ 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: gray; 
+}
+h1 {
+    flex: 1;
+    font-size:22px!important;
+    letter-spacing: .25px;
+    line-height: normal;
+    margin: 18px 0 15px 0!important;
+    font-weight: 500!important;
+ font-family: Roboto,  sans-serif!important;
+
+}
+.flex-align{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.flex-align2{
+  display: flex;
+  align-items: center;
+}
+.g1{
+  gap: 5px;
+}
+.g2{
+  gap: 10px;
+}
+.g3{
+  gap: 15px;
+}
+.g4{
+  gap: 20px;
+}
+
+.header-left img{
+  width: 24px;
+  height: 24px;
+}
+
+.header-center{
+  height: 55px;
+  display: flex;
+  align-items: center;
+  width: 67%;
+  max-width: 700px;
+}
+.header-search{
+  background: #F4F7F8;
+  border-radius: 20px;
+  height: 40px;
+  position: relative;
+  padding: 0px 12px;
+  display: flex;
+  align-items: center;
+  min-width: 100%;
+}
+
+.left-tab-child svg{
+  width: 24px;
+  height: 24px;
+  opacity: .6;
+  
+}
+.left-tab-child.active svg{
+ 
+  opacity: 1;
+ fill: #1a73e8;
+  
+}
+.header-search svg{
+  width: 20px;
+  height: 20px;
+  opacity: .4;
+  
+}
+
+.header-search input{
+  border: none;
+  outline: none;
+  margin-left: 12px;
+  background: initial;
+  font-size: 13px;
+ /* font-weight: 500;*/
+ font-family: Roboto, 'Segoe UI', Tahoma, sans-serif!important;
+
+}
+.main-body{
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+
+}
+.body-left{
+  width: 300px;
+  
+}
+.left-tab{
+  padding: 10px 45px 10px 0;
+}
+.left-tab-child{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  height: 44px;
+  padding: 10px 10px 10px 25px;
+  border-radius: 0 25px 25px 0;
+  font-weight: 500;
+  font-family: Roboto, 'Segoe UI', Tahoma, sans-serif!important;
+  cursor: pointer;
+}
+.left-tab-child:hover{
+  background: #e8eaed;
+}
+.left-tab-child.active{
+  color: #1a73e8;
+   background: #e8f0fe;
+
+}
+.left-tab-child img{
+  width: 20px;
+}
+.body-main{
+  height: calc(100vh - 100px);
+  overflow: auto;
+}
+.body-right{
+  width: calc(100vw - 300px);
+  padding:0 15px;
+}
+.header-left {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+    width: 310px;
+  padding: 0 22px;
+}
+
+
+.bg-light-blue {
+  background: #F4F7F8;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border: 0;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.col-md-3:not(:last-child) .dashboard-card {
+  border-right: 2px solid #9ba4b27a;
+}
+.dashboard-card {
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-28 {
+  font-size: 28px;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.badge-soft-success {
+  color: #2BB219;
+  background: #EAF7E8;
+}
+.badge-soft-danger {
+  color: #F33543;
+  background: #FEEAEB;
+}
+.badge {
+  font-weight: 400!important;
+  padding: 0.4em 0.8em!important;
+}
+.table-main td {
+  font-weight: 400;
+  font-size: 12px;
+  padding: 5px 0;
+}
+.flex-align3 {
+  display: flex;
+  align-items: center;
+}
+.site.site2 .select {
+  background-color: initial;
+}
+.select {
+  border: none;
+  width: auto;
+  height: auto;
+  padding-top: 0;
+  line-height: 12px;
+  padding-bottom: 3px;
+  background-size: 10px;
+  padding-right: 30px;
+}
